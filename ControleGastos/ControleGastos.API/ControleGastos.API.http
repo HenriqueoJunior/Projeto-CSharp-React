@@ -1,0 +1,101 @@
+@host = https://localhost:7096
+
+### Criar uma pessoa maior de idade
+POST {{host}}/api/pessoas
+Content-Type: application/json
+
+{
+  "nome": "João Silva",
+  "idade": 30
+}
+
+### Criar uma pessoa menor de idade
+POST {{host}}/api/pessoas
+Content-Type: application/json
+
+{
+  "nome": "Pedro Lima",
+  "idade": 16
+}
+
+### Listar pessoas
+GET {{host}}/api/pessoas
+
+### Criar categoria de despesa
+POST {{host}}/api/categorias
+Content-Type: application/json
+
+{
+  "descricao": "Alimentação",
+  "finalidade": 1
+}
+
+### Criar categoria de receita
+POST {{host}}/api/categorias
+Content-Type: application/json
+
+{
+  "descricao": "Salário",
+  "finalidade": 2
+}
+
+### Listar categorias
+GET {{host}}/api/categorias
+
+### Criar transação de despesa para maior de idade (deve funcionar)
+POST {{host}}/api/transacoes
+Content-Type: application/json
+
+{
+  "descricao": "Compra no mercado",
+  "valor": 150.00,
+  "tipo": 1,
+  "categoriaId": "41f1870e-7d77-4936-9c60-0272ad5f4b6a",
+  "pessoaId": "c1818cde-a785-4c48-8c99-a96db23d5cc9"
+}
+
+### Criar transação de receita para maior de idade (deve funcionar)
+POST {{host}}/api/transacoes
+Content-Type: application/json
+
+{
+  "descricao": "Salário do mês",
+  "valor": 3000.00,
+  "tipo": 2,
+  "categoriaId": "7de85c01-61f4-46a2-ae4c-64793dcdf97c",
+  "pessoaId": "c1818cde-a785-4c48-8c99-a96db23d5cc9"
+}
+
+### Criar transação de despesa para menor de idade (deve funcionar)
+POST {{host}}/api/transacoes
+Content-Type: application/json
+
+{
+  "descricao": "Lanche na escola",
+  "valor": 20.00,
+  "tipo": 1,
+  "categoriaId": "41f1870e-7d77-4936-9c60-0272ad5f4b6a",
+  "pessoaId": "4e4400ab-4823-412b-a8b2-8bb34cc4b1a2"
+}
+
+### Criar transação de receita para menor de idade (deve FALHAR)
+POST {{host}}/api/transacoes
+Content-Type: application/json
+
+{
+  "descricao": "Mesada",
+  "valor": 200.00,
+  "tipo": 2,
+  "categoriaId": "7de85c01-61f4-46a2-ae4c-64793dcdf97c",
+  "pessoaId": "4e4400ab-4823-412b-a8b2-8bb34cc4b1a2"
+}
+
+### Usar categoria errada — despesa com categoria receita (deve FALHAR)
+POST {{host}}/api/transacoes
+Content-Type: application/json
+
+{
+  "descricao": "Teste categoria errada",
+  "valor": 50.00,
+  "tipo": 1,
+  "
