@@ -5,7 +5,7 @@ Sistema completo de controle de gastos residenciais. Backend em C# .NET e Fronte
 ## Estrutura do Projeto
 
 ```
-Projeto C# React API/
+Projeto-CSharp-React/
 ├── ControleGastos/              # Backend C# .NET
 │   └── ControleGastos.API/
 ├── controle-gastos-frontend/    # Frontend React
@@ -19,7 +19,7 @@ Projeto C# React API/
 
 1. **Navegue até a pasta do backend:**
 ```bash
-cd "C:\Trabalho\Projeto C# React API\ControleGastos\ControleGastos.API"
+cd "\Projeto-CSharp-React\ControleGastos\ControleGastos.API"
 ```
 
 2. **Execute o projeto:**
@@ -39,7 +39,7 @@ O backend vai criar um banco de dados SQLite automaticamente em `controle_gastos
 
 1. **Abra outro terminal e navegue até a pasta do frontend:**
 ```bash
-cd "C:\Trabalho\Projeto C# React API\controle-gastos-frontend"
+cd "\Projeto-CSharp-React\controle-gastos-frontend"
 ```
 
 2. **Instale as dependências (primeira vez):**
@@ -104,7 +104,7 @@ Abre no VS Code com a extensão REST Client e testa tudo lá.
 
 Se quiser começar do zero, delete o arquivo:
 ```
-C:\Trabalho\Projeto C# React API\ControleGastos\ControleGastos.API\controle_gastos.db
+\Projeto-CSharp-React\ControleGastos\ControleGastos.API\controle_gastos.db
 ```
 
 Na próxima vez q rodar o backend, um novo banco será criado vazio.
