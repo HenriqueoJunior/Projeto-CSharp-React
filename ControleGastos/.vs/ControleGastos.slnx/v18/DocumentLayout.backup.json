@@ -1,0 +1,314 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\controllers\\transacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\controllers\\transacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\controlegastos.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\controlegastos.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\controllers\\pessoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\controllers\\pessoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\service\\relatorioservice\\relatorioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\service\\relatorioservice\\relatorioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\models\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\models\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\service\\transacaoservice\\transacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\service\\transacaoservice\\transacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\dtos\\transacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\dtos\\transacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\service\\categoriaservice\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\service\\categoriaservice\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\service\\transacaoservice\\itransacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\service\\transacaoservice\\itransacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\service\\pessoaservice\\ipessoaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\service\\pessoaservice\\ipessoaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\dtos\\pessoadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\dtos\\pessoadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\service\\categoriaservice\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\service\\categoriaservice\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|c:\\trabalho\\projeto-csharp-react\\controlegastos\\controlegastos.api\\service\\pessoaservice\\pessoaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6CADAF-9B13-D407-10B0-1BFDCC441E38}|ControleGastos.API\\ControleGastos.API.csproj|solutionrelative:controlegastos.api\\service\\pessoaservice\\pessoaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ControleGastos.API.http",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\ControleGastos.API.http",
+              "RelativeDocumentMoniker": "ControleGastos.API\\ControleGastos.API.http",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\ControleGastos.API.http",
+              "RelativeToolTip": "ControleGastos.API\\ControleGastos.API.http",
+              "ViewState": "AgIAABMBAAAAAAAAAAAmwD4BAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-31T01:57:10.667Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransacoesController.cs",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Controllers\\TransacoesController.cs",
+              "RelativeDocumentMoniker": "ControleGastos.API\\Controllers\\TransacoesController.cs",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Controllers\\TransacoesController.cs",
+              "RelativeToolTip": "ControleGastos.API\\Controllers\\TransacoesController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAawCAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T01:38:09.563Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "ControleGastos.API\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "ControleGastos.API\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwCcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T01:37:00.886Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PessoasController.cs",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Controllers\\PessoasController.cs",
+              "RelativeDocumentMoniker": "ControleGastos.API\\Controllers\\PessoasController.cs",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Controllers\\PessoasController.cs",
+              "RelativeToolTip": "ControleGastos.API\\Controllers\\PessoasController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T01:36:14.82Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RelatorioService.cs",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Service\\RelatorioService\\RelatorioService.cs",
+              "RelativeDocumentMoniker": "ControleGastos.API\\Service\\RelatorioService\\RelatorioService.cs",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Service\\RelatorioService\\RelatorioService.cs",
+              "RelativeToolTip": "ControleGastos.API\\Service\\RelatorioService\\RelatorioService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T02:34:42.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Transacao.cs",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Models\\Transacao.cs",
+              "RelativeDocumentMoniker": "ControleGastos.API\\Models\\Transacao.cs",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Models\\Transacao.cs",
+              "RelativeToolTip": "ControleGastos.API\\Models\\Transacao.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T01:28:38.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "ControleGastos.API\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Models\\Categoria.cs",
+              "RelativeToolTip": "ControleGastos.API\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T01:28:16.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransacaoService.cs",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Service\\TransacaoService\\TransacaoService.cs",
+              "RelativeDocumentMoniker": "ControleGastos.API\\Service\\TransacaoService\\TransacaoService.cs",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Service\\TransacaoService\\TransacaoService.cs",
+              "RelativeToolTip": "ControleGastos.API\\Service\\TransacaoService\\TransacaoService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAEwCMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T01:51:27.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TransacaoDTO.cs",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\DTOs\\TransacaoDTO.cs",
+              "RelativeDocumentMoniker": "ControleGastos.API\\DTOs\\TransacaoDTO.cs",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\DTOs\\TransacaoDTO.cs",
+              "RelativeToolTip": "ControleGastos.API\\DTOs\\TransacaoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T02:13:55.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICategoriaService.cs",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Service\\CategoriaService\\ICategoriaService.cs",
+              "RelativeDocumentMoniker": "ControleGastos.API\\Service\\CategoriaService\\ICategoriaService.cs",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Service\\CategoriaService\\ICategoriaService.cs",
+              "RelativeToolTip": "ControleGastos.API\\Service\\CategoriaService\\ICategoriaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T01:43:26.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ITransacaoService.cs",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Service\\TransacaoService\\ITransacaoService.cs",
+              "RelativeDocumentMoniker": "ControleGastos.API\\Service\\TransacaoService\\ITransacaoService.cs",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Service\\TransacaoService\\ITransacaoService.cs",
+              "RelativeToolTip": "ControleGastos.API\\Service\\TransacaoService\\ITransacaoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T01:43:46.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPessoaService.cs",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Service\\PessoaService\\IPessoaService.cs",
+              "RelativeDocumentMoniker": "ControleGastos.API\\Service\\PessoaService\\IPessoaService.cs",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Service\\PessoaService\\IPessoaService.cs",
+              "RelativeToolTip": "ControleGastos.API\\Service\\PessoaService\\IPessoaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T01:42:56.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Models\\Pessoa.cs",
+              "RelativeDocumentMoniker": "ControleGastos.API\\Models\\Pessoa.cs",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Models\\Pessoa.cs",
+              "RelativeToolTip": "ControleGastos.API\\Models\\Pessoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T01:27:30.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoriaDTO.cs",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\DTOs\\CategoriaDTO.cs",
+              "RelativeDocumentMoniker": "ControleGastos.API\\DTOs\\CategoriaDTO.cs",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\DTOs\\CategoriaDTO.cs",
+              "RelativeToolTip": "ControleGastos.API\\DTOs\\CategoriaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T02:14:03.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PessoaDTO.cs",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\DTOs\\PessoaDTO.cs",
+              "RelativeDocumentMoniker": "ControleGastos.API\\DTOs\\PessoaDTO.cs",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\DTOs\\PessoaDTO.cs",
+              "RelativeToolTip": "ControleGastos.API\\DTOs\\PessoaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T02:13:42.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Program.cs",
+              "RelativeDocumentMoniker": "ControleGastos.API\\Program.cs",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Program.cs",
+              "RelativeToolTip": "ControleGastos.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T01:53:57.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Service\\CategoriaService\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "ControleGastos.API\\Service\\CategoriaService\\CategoriaService.cs",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Service\\CategoriaService\\CategoriaService.cs",
+              "RelativeToolTip": "ControleGastos.API\\Service\\CategoriaService\\CategoriaService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwCcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T01:50:54.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PessoaService.cs",
+              "DocumentMoniker": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Service\\PessoaService\\PessoaService.cs",
+              "RelativeDocumentMoniker": "ControleGastos.API\\Service\\PessoaService\\PessoaService.cs",
+              "ToolTip": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\Service\\PessoaService\\PessoaService.cs",
+              "RelativeToolTip": "ControleGastos.API\\Service\\PessoaService\\PessoaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T01:50:13.294Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
