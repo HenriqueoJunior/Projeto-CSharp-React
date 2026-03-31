@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kj07YJulPKA=",
+  "dgSpecHash": "gV7PqsN2A8c=",
   "success": true,
-  "projectFilePath": "C:\\Trabalho\\Projeto C# React API\\ControleGastos\\ControleGastos.API\\ControleGastos.API.csproj",
+  "projectFilePath": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\ControleGastos.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Henrique Júnior\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Henrique Júnior\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",

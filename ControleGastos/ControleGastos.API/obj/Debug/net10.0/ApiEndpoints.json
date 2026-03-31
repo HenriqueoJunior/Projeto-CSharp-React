@@ -121,6 +121,26 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ControleGastos.API.Controllers.RelatoriosController",
+    "Method": "ObterTotaisPorCategoria",
+    "RelativePath": "api/Relatorios/categorias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ControleGastos.API.Controllers.RelatoriosController",
+    "Method": "ObterTotaisPorPessoa",
+    "RelativePath": "api/Relatorios/pessoas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ControleGastos.API.Controllers.TransacoesController",
     "Method": "Listar",
     "RelativePath": "api/Transacoes",

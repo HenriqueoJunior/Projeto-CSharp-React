@@ -1,101 +1,386 @@
 @host = https://localhost:7096
+@contentType = application/json
 
-### Criar uma pessoa maior de idade
+### ============================================
+### TESTE 1: CRIAR PESSOAS
+### ============================================
+
+### Criar uma pessoa maior de idade (João Silva - 30 anos)
 POST {{host}}/api/pessoas
-Content-Type: application/json
+Content-Type: {{contentType}}
 
 {
   "nome": "João Silva",
   "idade": 30
 }
 
-### Criar uma pessoa menor de idade
+### Criar uma pessoa menor de idade (Pedro Lima - 16 anos)
 POST {{host}}/api/pessoas
-Content-Type: application/json
+Content-Type: {{contentType}}
 
 {
   "nome": "Pedro Lima",
   "idade": 16
 }
 
-### Listar pessoas
+### Criar uma terceira pessoa para testes (Maria Santos - 25 anos)
+POST {{host}}/api/pessoas
+Content-Type: {{contentType}}
+
+{
+  "nome": "Maria Santos",
+  "idade": 25
+}
+
+### ============================================
+### TESTE 2: LISTAR E BUSCAR PESSOAS
+### ============================================
+
+### Listar todas as pessoas
 GET {{host}}/api/pessoas
 
-### Criar categoria de despesa
+### Buscar pessoa por ID (substitua {id} pelo ID retornado)
+# GET {{host}}/api/pessoas/550e8400-e29b-41d4-a716-446655440000
+
+### ============================================
+### TESTE 3: CRIAR CATEGORIAS
+### ============================================
+
+### Criar categoria de DESPESA (Alimentação)
 POST {{host}}/api/categorias
-Content-Type: application/json
+Content-Type: {{contentType}}
 
 {
   "descricao": "Alimentação",
   "finalidade": 1
 }
 
-### Criar categoria de receita
+### Criar categoria de RECEITA (Salário)
 POST {{host}}/api/categorias
-Content-Type: application/json
+Content-Type: {{contentType}}
 
 {
   "descricao": "Salário",
   "finalidade": 2
 }
 
-### Listar categorias
+### Criar categoria de AMBAS (Despesa e Receita)
+POST {{host}}/api/categorias
+Content-Type: {{contentType}}
+
+{
+  "descricao": "Investimentos",
+  "finalidade": 3
+}
+
+### Criar outra categoria de DESPESA (Transporte)
+POST {{host}}/api/categorias
+Content-Type: {{contentType}}
+
+{
+  "descricao": "Transporte",
+  "finalidade": 1
+}
+
+### Criar outra categoria de RECEITA (Freelance)
+POST {{host}}/api/categorias
+Content-Type: {{contentType}}
+
+{
+  "descricao": "Freelance",
+  "finalidade": 2
+}
+
+### ============================================
+### TESTE 4: LISTAR E BUSCAR CATEGORIAS
+### ============================================
+
+### Listar todas as categorias
 GET {{host}}/api/categorias
 
-### Criar transação de despesa para maior de idade (deve funcionar)
+### Buscar categoria por ID (substitua {id} pelo ID retornado)
+GET {{host}}/api/categorias/343005ed-5941-480b-aead-4d2b02887678
+
+### ============================================
+### TESTE 5: CRIAR TRANSAÇÕES - CASOS VÁLIDOS ✓
+### ============================================
+
+### Criar transação de DESPESA para maior de idade (DEVE FUNCIONAR ✓)
+### Nota: Substitua os IDs pelos IDs reais retornados nas requisições anteriores
 POST {{host}}/api/transacoes
-Content-Type: application/json
+Content-Type: {{contentType}}
 
 {
   "descricao": "Compra no mercado",
   "valor": 150.00,
   "tipo": 1,
-  "categoriaId": "41f1870e-7d77-4936-9c60-0272ad5f4b6a",
-  "pessoaId": "c1818cde-a785-4c48-8c99-a96db23d5cc9"
+  "categoriaId": "343005ed-5941-480b-aead-4d2b02887678",
+  "pessoaId": "a1696657-1b61-4bbf-a200-c6930f6e80dd"
 }
 
-### Criar transação de receita para maior de idade (deve funcionar)
+### Criar transação de RECEITA para maior de idade (DEVE FUNCIONAR ✓)
 POST {{host}}/api/transacoes
-Content-Type: application/json
+Content-Type: {{contentType}}
 
 {
   "descricao": "Salário do mês",
   "valor": 3000.00,
   "tipo": 2,
-  "categoriaId": "7de85c01-61f4-46a2-ae4c-64793dcdf97c",
-  "pessoaId": "c1818cde-a785-4c48-8c99-a96db23d5cc9"
+  "categoriaId": "88432903-97ba-4b4b-8a29-d96860dc942a",
+  "pessoaId": "a1696657-1b61-4bbf-a200-c6930f6e80dd"
 }
 
-### Criar transação de despesa para menor de idade (deve funcionar)
+### Criar transação de DESPESA para menor de idade (DEVE FUNCIONAR ✓)
 POST {{host}}/api/transacoes
-Content-Type: application/json
+Content-Type: {{contentType}}
 
 {
   "descricao": "Lanche na escola",
   "valor": 20.00,
   "tipo": 1,
-  "categoriaId": "41f1870e-7d77-4936-9c60-0272ad5f4b6a",
-  "pessoaId": "4e4400ab-4823-412b-a8b2-8bb34cc4b1a2"
+  "categoriaId": "343005ed-5941-480b-aead-4d2b02887678",
+  "pessoaId": "e164c2d0-3595-4078-bf95-91fb6c1c5836"
 }
 
-### Criar transação de receita para menor de idade (deve FALHAR)
+### Criar transação com categoria AMBAS para DESPESA (DEVE FUNCIONAR ✓)
 POST {{host}}/api/transacoes
-Content-Type: application/json
+Content-Type: {{contentType}}
+
+{
+  "descricao": "Investimento em ações",
+  "valor": 500.00,
+  "tipo": 1,
+  "categoriaId": "41caffb4-b07f-45b5-8b22-020ed1e57c5f",
+  "pessoaId": "1e483538-c59c-47d1-807f-d604e19f91db"
+}
+
+### Criar transação com categoria AMBAS para RECEITA (DEVE FUNCIONAR ✓)
+POST {{host}}/api/transacoes
+Content-Type: {{contentType}}
+
+{
+  "descricao": "Retorno do investimento",
+  "valor": 250.00,
+  "tipo": 2,
+  "categoriaId": "41caffb4-b07f-45b5-8b22-020ed1e57c5f",
+  "pessoaId": "1e483538-c59c-47d1-807f-d604e19f91db"
+}
+
+### Criar transação de RECEITA para maior de idade com categoria RECEITA (DEVE FUNCIONAR ✓)
+POST {{host}}/api/transacoes
+Content-Type: {{contentType}}
+
+{
+  "descricao": "Trabalho freelance",
+  "valor": 800.00,
+  "tipo": 2,
+  "categoriaId": "ce3deea4-96eb-4e01-b0d8-6853fb7a7883",
+  "pessoaId": "1e483538-c59c-47d1-807f-d604e19f91db"
+}
+
+### ============================================
+### TESTE 6: CRIAR TRANSAÇÕES - CASOS INVÁLIDOS ✗
+### ============================================
+
+### ERRO: Criar transação de RECEITA para menor de idade (DEVE FALHAR ✗)
+### Esperado: 400 Bad Request - "Pessoas menores de idade só podem registrar despesas."
+POST {{host}}/api/transacoes
+Content-Type: {{contentType}}
 
 {
   "descricao": "Mesada",
   "valor": 200.00,
   "tipo": 2,
-  "categoriaId": "7de85c01-61f4-46a2-ae4c-64793dcdf97c",
-  "pessoaId": "4e4400ab-4823-412b-a8b2-8bb34cc4b1a2"
+  "categoriaId": "88432903-97ba-4b4b-8a29-d96860dc942a",
+  "pessoaId": "e164c2d0-3595-4078-bf95-91fb6c1c5836"
 }
 
-### Usar categoria errada — despesa com categoria receita (deve FALHAR)
+### ERRO: Usar categoria de RECEITA para DESPESA (DEVE FALHAR ✗)
+### Esperado: 400 Bad Request - "Esta categoria não pode ser usada para despesas."
 POST {{host}}/api/transacoes
-Content-Type: application/json
+Content-Type: {{contentType}}
 
 {
   "descricao": "Teste categoria errada",
   "valor": 50.00,
   "tipo": 1,
-  "
+  "categoriaId": "88432903-97ba-4b4b-8a29-d96860dc942a",
+  "pessoaId": "a1696657-1b61-4bbf-a200-c6930f6e80dd"
+}
+
+### ERRO: Usar categoria de DESPESA para RECEITA (DEVE FALHAR ✗)
+### Esperado: 400 Bad Request - "Esta categoria não pode ser usada para receitas."
+POST {{host}}/api/transacoes
+Content-Type: {{contentType}}
+
+{
+  "descricao": "Receita com categoria errada",
+  "valor": 100.00,
+  "tipo": 2,
+  "categoriaId": "343005ed-5941-480b-aead-4d2b02887678",
+  "pessoaId": "a1696657-1b61-4bbf-a200-c6930f6e80dd"
+}
+
+### ERRO: Valor negativo (DEVE FALHAR ✗)
+### Esperado: 400 Bad Request - "O valor da transação deve ser positivo."
+POST {{host}}/api/transacoes
+Content-Type: {{contentType}}
+
+{
+  "descricao": "Transação com valor negativo",
+  "valor": -100.00,
+  "tipo": 1,
+  "categoriaId": "343005ed-5941-480b-aead-4d2b02887678",
+  "pessoaId": "a1696657-1b61-4bbf-a200-c6930f6e80dd"
+}
+
+### ERRO: Valor zero (DEVE FALHAR ✗)
+### Esperado: 400 Bad Request - "O valor da transação deve ser positivo."
+POST {{host}}/api/transacoes
+Content-Type: {{contentType}}
+
+{
+  "descricao": "Transação com valor zero",
+  "valor": 0,
+  "tipo": 1,
+  "categoriaId": "343005ed-5941-480b-aead-4d2b02887678",
+  "pessoaId": "a1696657-1b61-4bbf-a200-c6930f6e80dd"
+}
+
+### ERRO: Pessoa não encontrada (DEVE FALHAR ✗)
+### Esperado: 404 Not Found - "Pessoa não encontrada."
+POST {{host}}/api/transacoes
+Content-Type: {{contentType}}
+
+{
+  "descricao": "Transação com pessoa inválida",
+  "valor": 50.00,
+  "tipo": 1,
+  "categoriaId": "343005ed-5941-480b-aead-4d2b02887678",
+  "pessoaId": "00000000-0000-0000-0000-000000000000"
+}
+
+### ERRO: Categoria não encontrada (DEVE FALHAR ✗)
+### Esperado: 404 Not Found - "Categoria não encontrada."
+POST {{host}}/api/transacoes
+Content-Type: {{contentType}}
+
+{
+  "descricao": "Transação com categoria inválida",
+  "valor": 50.00,
+  "tipo": 1,
+  "categoriaId": "00000000-0000-0000-0000-000000000000",
+  "pessoaId": "a1696657-1b61-4bbf-a200-c6930f6e80dd"
+}
+
+### ============================================
+### TESTE 7: LISTAR E BUSCAR TRANSAÇÕES
+### ============================================
+
+### Listar todas as transações
+GET {{host}}/api/transacoes
+
+### Buscar transação por ID (substitua {id} pelo ID retornado)
+# GET {{host}}/api/transacoes/550e8400-e29b-41d4-a716-446655440000
+
+### ============================================
+### TESTE 8: RELATÓRIOS
+### ============================================
+
+### Obter totais por PESSOA
+### Retorna: total receitas, total despesas e saldo para cada pessoa
+### Também retorna totais gerais do sistema
+GET {{host}}/api/relatorios/pessoas
+
+### Obter totais por CATEGORIA
+### Retorna: total receitas, total despesas e saldo para cada categoria
+### Também retorna totais gerais do sistema
+GET {{host}}/api/relatorios/categorias
+
+### ============================================
+### TESTE 9: EDITAR PESSOA
+### ============================================
+
+### Atualizar pessoa (substitua {id} pelo ID retornado)
+# PUT {{host}}/api/pessoas/550e8400-e29b-41d4-a716-446655440000
+# Content-Type: {{contentType}}
+# 
+# {
+#   "nome": "João Silva Santos",
+#   "idade": 31
+# }
+
+### ============================================
+### TESTE 10: DELETAR PESSOA
+### ============================================
+
+### Deletar pessoa (substitua {id} pelo ID retornado)
+### IMPORTANTE: Isso também deletará todas as transações dessa pessoa (cascade delete)
+# DELETE {{host}}/api/pessoas/550e8400-e29b-41d4-a716-446655440000
+
+### ============================================
+### INSTRUÇÕES DE USO
+### ============================================
+
+# PASSO 1: Execute as requisições de CRIAR PESSOAS
+#   - Crie João Silva (30 anos)
+#   - Crie Pedro Lima (16 anos)
+#   - Crie Maria Santos (25 anos)
+#   - Copie os IDs retornados (campo "id" no JSON)
+
+# PASSO 2: Execute a requisição LISTAR PESSOAS
+#   - Verifique que as 3 pessoas foram criadas
+
+# PASSO 3: Execute as requisições de CRIAR CATEGORIAS
+#   - Crie Alimentação (Despesa)
+#   - Crie Salário (Receita)
+#   - Crie Investimentos (Ambas)
+#   - Crie Transporte (Despesa)
+#   - Crie Freelance (Receita)
+#   - Copie os IDs das categorias
+
+# PASSO 4: Execute a requisição LISTAR CATEGORIAS
+#   - Verifique que as 5 categorias foram criadas
+
+# PASSO 5: Substitua os placeholders nos testes de TRANSAÇÕES
+#   - Substitua "a1696657-1b61-4bbf-a200-c6930f6e80dd" pelo ID de João Silva
+#   - Substitua "e164c2d0-3595-4078-bf95-91fb6c1c5836" pelo ID de Pedro Lima
+#   - Substitua "1e483538-c59c-47d1-807f-d604e19f91db" pelo ID de Maria Santos
+#   - Substitua "343005ed-5941-480b-aead-4d2b02887678" pelo ID de Alimentação
+#   - Substitua "88432903-97ba-4b4b-8a29-d96860dc942a" pelo ID de Salário
+#   - Substitua "41caffb4-b07f-45b5-8b22-020ed1e57c5f" pelo ID de Investimentos
+#   - Substitua "ce3deea4-96eb-4e01-b0d8-6853fb7a7883" pelo ID de Freelance
+
+# PASSO 6: Execute as requisições de CRIAR TRANSAÇÕES - CASOS VÁLIDOS
+#   - Todas as 7 requisições devem retornar 201 Created
+#   - Observe a resposta com os dados da transação criada
+
+# PASSO 7: Execute as requisições de CRIAR TRANSAÇÕES - CASOS INVÁLIDOS
+#   - As 7 requisições devem falhar com os erros esperados
+#   - Verifique os códigos de status (400 ou 404)
+#   - Leia as mensagens de erro
+
+# PASSO 8: Execute LISTAR TRANSAÇÕES
+#   - Verifique que todas as transações válidas foram criadas
+
+# PASSO 9: Execute os RELATÓRIOS
+#   - Verifique os totais por pessoa
+#   - Verifique os totais por categoria
+#   - Verifique o saldo geral
+
+# PASSO 10: (Opcional) Execute EDITAR PESSOA e DELETAR PESSOA
+#   - Teste a atualização de dados
+#   - Teste a exclusão em cascata
+
+### ============================================
+### EXEMPLO DE RESPOSTA COM IDS
+### ============================================
+
+# {
+#   "id": "550e8400-e29b-41d4-a716-446655440000",
+#   "nome": "João Silva",
+#   "idade": 30
+# }
+#
+# Copie o valor de "id" e use em outras requisições.
+# Exemplo: Substitua "a1696657-1b61-4bbf-a200-c6930f6e80dd" por "550e8400-e29b-41d4-a716-446655440000"

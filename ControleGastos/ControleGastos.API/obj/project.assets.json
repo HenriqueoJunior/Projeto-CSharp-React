@@ -2477,11 +2477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Trabalho\\Projeto C# React API\\ControleGastos\\ControleGastos.API\\ControleGastos.API.csproj",
+      "projectUniqueName": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\ControleGastos.API.csproj",
       "projectName": "ControleGastos.API",
-      "projectPath": "C:\\Trabalho\\Projeto C# React API\\ControleGastos\\ControleGastos.API\\ControleGastos.API.csproj",
+      "projectPath": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\ControleGastos.API.csproj",
       "packagesPath": "C:\\Users\\Henrique Júnior\\.nuget\\packages\\",
-      "outputPath": "C:\\Trabalho\\Projeto C# React API\\ControleGastos\\ControleGastos.API\\obj\\",
+      "outputPath": "C:\\Trabalho\\Projeto-CSharp-React\\ControleGastos\\ControleGastos.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

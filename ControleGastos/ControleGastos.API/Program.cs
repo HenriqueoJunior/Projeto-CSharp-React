@@ -1,5 +1,6 @@
 using ControleGastos.API.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,15 @@ builder.Services.AddCors(options =>
     });
 });
 
+// Configura JSON serialization para ignorar referências circulares
+// Isso previne o erro "object cycle detected" ao serializar entidades com relacionamentos bidirecionais
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+        options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
+    });
+
 // Registra o AppDbContext usando SQLite
 // O arquivo do banco será criado automaticamente na raiz do projeto
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -24,8 +34,6 @@ builder.Services.AddScoped<ControleGastos.API.Services.PessoaService.IPessoaServ
 builder.Services.AddScoped<ControleGastos.API.Services.CategoriaService.ICategoriaService, ControleGastos.API.Services.CategoriaService.CategoriaService>();
 builder.Services.AddScoped<ControleGastos.API.Services.TransacaoService.ITransacaoService, ControleGastos.API.Services.TransacaoService.TransacaoService>();
 builder.Services.AddScoped<ControleGastos.API.Services.RelatorioService.IRelatorioService, ControleGastos.API.Services.RelatorioService.RelatorioService>();
-
-builder.Services.AddControllers();
 
 var app = builder.Build();
 
